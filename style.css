@@ -1,26 +1,38 @@
 #H{
-
+    margin:auto;
     background-color: navy;
     text-align: center;
     color: floralwhite;
+    float:center;
+
+
 
 }
 #SecFirst{
-    padding: 10px;
+
+    margin:auto;
+
     background-color:deepskyblue;
-    text-align: left;
+    text-align:left;
     color: floralwhite;
-    float:left;
+    float: left;
+
 }
 
 #SecSecond{
-    padding: 10px;
+    margin:auto;
     background-color:blue;
-    text-align: : right;
+    text-align:center;
     color:floralwhite;
     float:right;
 }
 
-#cuteYak {
-    float: middle;
+#signup{
+    margin:auto;
+    text-align: center;
+    float: center;
+}
+#oldMess{
+    display:flex;
+    justify-content: center;
 }
