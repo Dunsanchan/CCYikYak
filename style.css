@@ -1,35 +1,73 @@
 #H{
-    margin:auto;
-    background-color: navy;
+    height:50vh;
+    background-color: skyblue;
+    background-size: cover;
     text-align: center;
-    color: floralwhite;
-    float:center;
+    font-size: 7em;
+    // Now this will center the header text
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+
+
+}
+body {
+    margin:0;
+    padding:0;
+    background-image: url("yak_in_snow.jpg") ;
+    background-repeat: no-repeat;
+
 
 
 
 }
 #SecFirst{
-
     margin:auto;
     background-color:deepskyblue;
+    font-size: 4em;
     text-align:left;
     color: floralwhite;
     float: left;
 
 }
-
 #SecSecond{
     margin:auto;
     background-color:blue;
+    font-size: 3em;
     text-align:center;
     color:floralwhite;
     float:right;
+    padding:30px;
 }
 
 #signup{
     margin:auto;
     text-align: center;
     float: center;
+}
+#signup{
+    margin:auto;
+    float:left;
+    border:none;
+    background-color: blueviolet;
+    font-size: 48px;
+    padding: 10px 20px;
+    text-align: center;
+    display:inline-block;
+
+}
+#signin{
+    margin:auto;
+    border: none;
+    float:left;
+    background-color: blueviolet;
+    font-size: 48px;
+    padding: 10px 20px;
+    text-align: center;
+    display:inline-block;
+
 }
 #oldMess{
     display:flex;
