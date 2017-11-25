@@ -6,6 +6,7 @@
         <title>
             Code Create Yik Yak App By DunSanChan
         </title>
+        <link rel= "stylesheet" type="text/css" href="style.css" />
     </head>
 
     <body>
@@ -13,13 +14,24 @@
             <h1>CC YIK YAK</h1>
         </div >
         <div id="tabs">
-            <h2>My Messages</h2>
-            <h2>Global Messages [This should be on the right hand side on the same level of "my messages" ]</h2>
+            <div id="SecFirst">
+                <h2>My Messages</h2>
+            </div>
+            <div id="SecSecond">
+                <h2>Global Messages</h2>
+            </div>
         </div >
-        <p1>XD wassup ma boi</p1>
-        <img src = "stock-vector-cute-yak-cartoon-135751631.jpg" />
+        <img id="cuteYak" src = "stock-vector-cute-yak-cartoon-135751631.jpg" alt="cute yak" />
         <div id="enterMess">
             <h3>This is where u enter ur new message</h3>
+            <form>
+                New message:<br>
+                <input type="text" name="message ">
+                <br>
+
+            </form>
+
+            <input type="button" value="Post">
         </div>
         <div id="oldMessHead">
             <h3>This is the history of past posts</h3>

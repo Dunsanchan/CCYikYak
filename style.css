@@ -1,0 +1,26 @@
+#H{
+
+    background-color: navy;
+    text-align: center;
+    color: floralwhite;
+
+}
+#SecFirst{
+    padding: 10px;
+    background-color:deepskyblue;
+    text-align: left;
+    color: floralwhite;
+    float:left;
+}
+
+#SecSecond{
+    padding: 10px;
+    background-color:blue;
+    text-align: : right;
+    color:floralwhite;
+    float:right;
+}
+
+#cuteYak {
+    float: middle;
+}
