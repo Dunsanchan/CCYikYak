@@ -1,75 +1,71 @@
 #H{
-    height:50vh;
-    background-color: skyblue;
-    background-size: cover;
+
+    font-size: 60px;
     text-align: center;
-    font-size: 7em;
-    // Now this will center the header text
-    z-index: 2;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    position: relative;
-
-
+    color:navy;
 }
 body {
     margin:0;
     padding:0;
-    background-image: url("yak_in_snow.jpg") ;
+    background-image: url("snowy.jpg") ;
     background-repeat: no-repeat;
-
-
-
-
+    background-size: cover;
 }
 #SecFirst{
     margin:auto;
-    background-color:deepskyblue;
-    font-size: 4em;
+    background-color:transparent;
+    font-size: 24px;
     text-align:left;
-    color: floralwhite;
+    color: deepskyblue;
     float: left;
+    padding-left: 50px;
+}
+#Gposts{
+    margin: auto;
+    padding-left: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
 }
 #SecSecond{
+    display: flex;
     margin:auto;
-    background-color:blue;
-    font-size: 3em;
+    font-size: 24px;
     text-align:center;
-    color:floralwhite;
+    color:#66c2ff;
+    justify-content: flex-start;
+    padding-left: 100px;
+
+}
+
+#signup{
+    margin:auto;
     float:right;
-    padding:30px;
-}
-
-#signup{
-    margin:auto;
-    text-align: center;
-    float: center;
-}
-#signup{
-    margin:auto;
-    float:left;
     border:none;
-    background-color: blueviolet;
-    font-size: 48px;
-    padding: 10px 20px;
+    font-size: 3em;
+    padding: 15px;
     text-align: center;
-    display:inline-block;
-
+    background-color: transparent;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#signup:hover{
+    background-color: green;
+    color:red;
 }
 #signin{
     margin:auto;
+    background-color: transparent;
     border: none;
-    float:left;
-    background-color: blueviolet;
-    font-size: 48px;
-    padding: 10px 20px;
+    float:right;
+    font-size: 3em;
+    padding: 15px;
     text-align: center;
-    display:inline-block;
-
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
-#oldMess{
-    display:flex;
-    justify-content: center;
+#signin:hover{
+    background-color: green;
+    color:red;
 }
